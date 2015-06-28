@@ -4,7 +4,7 @@ $color-fg:					#7c8081;
 $color-border:				transparentize($color-fg, 0.8);
 
 $color-header-bg:			#fff;
-$color-header-fg:			#5caa40;
+$color-header-fg:			#70a35c;
 $color-header-alt-bg:		transparent;
 $color-header-alt-fg:		#fff;
 
@@ -16,7 +16,7 @@ $color-banner-inner-fg:		#fff;
 $color-footer-bg:			#E8EEF4;//#e2e5e8;
 $color-footer-fg:			#7c8081;
 
-$color-one-bg:				#5caa40;
+$color-one-bg:				$color-header-fg;
 $color-one-fg:				#fff;
 $color-two-bg:				#fff;
 $color-two-fg:				inherit;

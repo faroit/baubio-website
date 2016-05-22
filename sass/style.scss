@@ -583,6 +583,7 @@ $pattern-background-size: 25em;
 
 	#header {
 		background: $color-header-bg;
+		opacity: 0.9;
 		box-shadow: 0 1px 2px 0 rgba(0,0,0,0.075);
 		color: $color-header-fg;
 		cursor: default;
@@ -681,6 +682,9 @@ $pattern-background-size: 25em;
 				right: 2.5em;
 				top: 1.75em;
 
+				img {
+					display: none;
+				}
 				ul {
 					li {
 						&.active,

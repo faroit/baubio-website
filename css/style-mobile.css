@@ -20,7 +20,7 @@ p {
 
 /* Section/Article */
 header {
-  text-align: center; }
+  text-align: left; }
   header.major {
     padding-bottom: 0; }
   header.special {

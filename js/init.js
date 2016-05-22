@@ -13,54 +13,8 @@
 			wide:		{ range: '-1680', href: 'css/style-wide.css', containers: 1200, grid: { gutters: 40 } },
 			normal:		{ range: '-1280', href: 'css/style-normal.css', containers: 960, viewport: { scalable: false } },
 			narrow:		{ range: '-980', href: 'css/style-narrow.css', containers: '95%', grid: { gutters: 30 } },
-			// narrower:	{ range: '-840', href: 'css/style-narrower.css', containers: '95%!' },
-			// mobile:		{ range: '-736', href: 'css/style-mobile.css', containers: '100%!' }
-		},
-		plugins: {
-			layers: {
-				config: {
-					mode: function() { return (skel.vars.isMobile ? 'transform' : 'position'); }
-				},
-				topPanel: {
-					states: '/global/wide/normal/narrow/narrower/mobile',
-					position: 'top-center',
-					side: 'top',
-					hidden: true,
-					animation: 'pushY',
-					width: '100%',
-					height: 275,
-					html: '<nav data-action="navList" data-args="nav"></nav>',
-					clickToHide: true,
-					swipeToHide: false,
-					orientation: 'vertical'
-				},
-				topButton: {
-					states: '/global/wide/normal/narrow/narrower/mobile',
-					position: 'top-center',
-					width: 120,
-					height: 50,
-					html: '<span class="toggle" data-action="toggleLayer" data-args="topPanel"></span>'
-				},
-				sidePanel: {
-					states: '/global/wide/normal/narrow/narrower',
-					position: 'top-left',
-					side: 'left',
-					hidden: true,
-					animation: 'revealX',
-					width: 250,
-					height: '100%',
-					html: '<nav data-action="navList" data-args="nav"></nav>',
-					clickToHide: true,
-					orientation: 'vertical'
-				},
-				sideButton: {
-					states: '/global/wide/normal/narrow/narrower',
-					position: 'top-left',
-					width: 100,
-					height: 60,
-					html: '<span class="toggle" data-action="toggleLayer" data-args="sidePanel"></span>'
-				}
-			}
+			narrower:	{ range: '-840', href: 'css/style-narrower.css', containers: '95%!' },
+			mobile:		{ range: '-736', href: 'css/style-mobile.css', containers: '100%!' }
 		}
 	});
 

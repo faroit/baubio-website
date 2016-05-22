@@ -191,6 +191,7 @@ $pattern-background-size: 25em;
 		text-decoration: none;
 		width: 100%;
 		outline: 0;
+		background-color: rgba(255, 255, 255, 0.1);
 
 		&:focus {
 			border-color: $color-one-bg;
@@ -205,7 +206,7 @@ $pattern-background-size: 25em;
 
 	::-webkit-input-placeholder {
 		color: inherit;
-		opacity: 0.5;
+		opacity: 0.7;
 		position: relative;
 		top: 3px;
 	}
@@ -226,7 +227,7 @@ $pattern-background-size: 25em;
 	}
 
 	.formerize-placeholder {
-		color: transparentize($color-fg, 0.5) !important;
+		color: transparentize($color-fg, 0.1) !important;
 	}
 
 /* Image */
@@ -541,6 +542,7 @@ $pattern-background-size: 25em;
 
 		&.style2 {
 			background-color: $color-one-bg;
+			background-image: url('../images/noise.png');
 			color: $color-one-fg;
 
 			.button {
@@ -626,6 +628,7 @@ $pattern-background-size: 25em;
 						line-height: 1em;
 						padding: 0.6em 0.75em;
 						text-decoration: none;
+						font-weight: 500;
 					}
 
 					input[type="button"],
@@ -855,6 +858,10 @@ $pattern-background-size: 25em;
 
 		header {
 			margin-bottom: 2em;
+		}
+
+		a {
+			color: white;
 		}
 	}
 

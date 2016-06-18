@@ -63,7 +63,7 @@ h2 {
   letter-spacing: 0.1em; }
 
 h3 {
-  font-size: 1.15em;
+  font-size: 1.3em;
   letter-spacing: 0.025em; }
 
 sub {
@@ -96,7 +96,7 @@ header.special {
   margin-bottom: 5em;
   padding-top: 7em;
   position: relative;
-  text-align: center; }
+  text-align: left; }
   header.special:before, header.special:after {
     border-bottom: solid 1.5px;
     border-top: solid 1.5px;
@@ -696,7 +696,8 @@ body.index #main {
   padding: 5em;
   text-align: center; }
   #cta header {
-    margin-bottom: 2em; }
+    margin-bottom: 2em;
+    text-align: left; }
   #cta a {
     color: white; }
 

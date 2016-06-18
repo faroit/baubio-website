@@ -72,7 +72,7 @@ $pattern-background-size: 25em;
 	}
 
 	h3 {
-		font-size: 1.15em;
+		font-size: 1.3em;
 		letter-spacing: 0.025em;
 	}
 
@@ -117,7 +117,7 @@ $pattern-background-size: 25em;
 			margin-bottom: 5em;
 			padding-top: 7em;
 			position: relative;
-			text-align: center;
+			text-align: left;
 
 			&:before,
 			&:after {
@@ -858,6 +858,7 @@ $pattern-background-size: 25em;
 
 		header {
 			margin-bottom: 2em;
+			text-align:left;
 		}
 
 		a {
